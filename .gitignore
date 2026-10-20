@@ -1,0 +1,17 @@
+# Secrets and credentials: never commit
+*.lic
+*.pem
+*.key
+*.ppk
+.env
+*credentials*
+*secret*
+lab-secrets/
+
+# Raw data and captures: may contain IPs/hostnames
+raw/
+*.pcap
+*.evtx
+
+# OS and editor junk
+.DS_Store
